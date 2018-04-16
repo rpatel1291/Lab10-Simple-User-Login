@@ -1,0 +1,20 @@
+<div class="inputForm">
+    <form action="/login" id="login-form" method="POST">
+        <div class="input-username">
+            <label id="user-name">User:</label><br>
+            <input type="text" name="username" id="username"
+                placeholder="Enter Username" value="{{username}}"><br>
+        </div>
+        <div class="input-password">
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password"
+                placeholder="Enter Password" value="{{password}}"><br>
+        </div><br>
+        <div class="submit-button">
+            <button id="button" type="submit">Submit</button>
+        </div>
+        <div class="render-message">
+           <p> {{message}} </p>
+        </div>
+    </form>
+</div>
